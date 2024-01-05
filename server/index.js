@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use("/Candidates", candidateRouter);
+app.use("/candidates", candidateRouter);
 
 db.sequelize.sync().then(()=>{
     app.listen("3001", ()=>{
