@@ -23,26 +23,109 @@ module.exports = (Sequelize, DataTypes) => {
             type: DataTypes.STRING(50), 
             allowNull:true
         },
+        languages: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        academics: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
         linkedin: {
             type: DataTypes.STRING(100), 
             allowNull:true
         },
-
-
-
-// email, 
-// telephone, 
-// Adresse, 
-// Diplome
-// Parcours
-// Activités
-// Rémunération : 
-// Base, bonus, deferred
-// Attendue 
-// Motivations :
-// Relocalisation : 
-// NC Period
-
+        career: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        daybyday: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        strat: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        stratAssets: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        stratRegion: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        stratFreq: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        skills: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        needs: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        target: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        compBase: {
+            type: DataTypes.INTEGER, 
+            allowNull:true
+        },
+        compBonus: {
+            type: DataTypes.INTEGER, 
+            allowNull:true
+        },
+        compDeffered: {
+            type: DataTypes.INTEGER, 
+            allowNull:true
+        },
+        compExpectations: {
+            type: DataTypes.INTEGER, 
+            allowNull:true
+        },
+        ncperiod: {
+            type: DataTypes.STRING, 
+            allowNull:true
+        },
+        relocation: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
+        other: {
+            type: DataTypes.STRING(100), 
+            allowNull:true
+        },
     })
     return Candidates;
 };
+
+
+/*
+lastname
+firstname
+email
+phone
+nationality
+languages
+academic
+linkedin
+career
+daybyday
+strat
+stratAssets
+stratRegion
+stratFreq
+skills
+needs
+target
+compBase
+compBonus
+compDeffered
+compExpectations
+ncperiod
+relocation
+notes*/

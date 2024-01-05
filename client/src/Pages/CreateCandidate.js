@@ -79,6 +79,25 @@ const CreateCandidate = () => {
                     placeholder=""
                 />
 
+                <label>Languages</label>
+                <ErrorMessage name="linkedin" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="languages"
+                    placeholder=""
+                />
+
+                <label>Academics</label>
+                <ErrorMessage name="academics" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="academics"
+                    placeholder=""
+                />
+
+
                 <label>LinkedIn Profile</label>
                 <ErrorMessage name="linkedin" component="span"></ErrorMessage>
                 <Field 
@@ -88,8 +107,150 @@ const CreateCandidate = () => {
                     placeholder=""
                 />
 
+                <label>Career</label>
+                <ErrorMessage name="career" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="career"
+                    placeholder=""
+                />
 
-                <button type="submit">Save</button>
+                <label>Day By Day</label>
+                <ErrorMessage name="daybyday" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="daybyday"
+                    placeholder=""
+                />
+
+                <label>Strategy</label>
+                <ErrorMessage name="strat" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="strat"
+                    placeholder=""
+                />
+
+<               label>Assets</label>
+                <ErrorMessage name="stratAssets" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="stratAssets"
+                    placeholder=""
+                />
+
+                <label>Region</label>
+                <ErrorMessage name="stratRegion" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="stratRegion"
+                    placeholder=""
+                />
+
+                <label>Frequency</label>
+                <ErrorMessage name="stratFreq" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="stratFreq"
+                    placeholder=""
+                />
+
+                <label>Skills</label>
+                <ErrorMessage name="skills" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="skills"
+                    placeholder=""
+                />
+
+                <label>Needs</label>
+                <ErrorMessage name="needs" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="needs"
+                    name="stratFreq"
+                    placeholder=""
+                />
+
+                <label>Target</label>
+                <ErrorMessage name="target" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="target"
+                    placeholder=""
+                />
+
+                <label>Base</label>
+                <ErrorMessage name="compBase" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="compBase"
+                    placeholder=""
+                />
+
+                <label>Bonus</label>
+                <ErrorMessage name="compBonus" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="compBonus"
+                    placeholder=""
+                />
+
+                <label>Deffered</label>
+                <ErrorMessage name="compDeffered" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="compDeffered"
+                    placeholder=""
+                />
+
+                <label>Expectations</label>
+                <ErrorMessage name="compExpectations" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="compExpectations"
+                    placeholder=""
+                />
+
+                <label>Non Compete Period</label>
+                <ErrorMessage name="ncperiod" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="ncperiod"
+                    placeholder=""
+                />
+
+                <label>Relocation</label>
+                <ErrorMessage name="relocation" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="relocation"
+                    placeholder=""
+                />
+
+                <label>Other</label>
+                <ErrorMessage name="other" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="other"
+                    placeholder=""
+                />
+             <button type="submit">Save</button>
             </Form>
 
         </Formik>
