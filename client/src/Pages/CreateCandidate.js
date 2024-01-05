@@ -26,7 +26,7 @@ const CreateCandidate = () => {
 
   return (
     <div className='createCandidate'>
-      
+      <h1>Create a Candidate</h1>
       <Formik 
         initialValues = {initialValues}
         onSubmit = {onSubmit}
@@ -51,6 +51,44 @@ const CreateCandidate = () => {
                     name="firstname"
                     placeholder="Required"
                 />
+
+                <label>Email:</label>
+                <ErrorMessage name="email" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="email"
+                    placeholder=""
+                />
+
+<               label>Phone:</label>
+                <ErrorMessage name="phone" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="phone"
+                    placeholder=""
+                />
+                
+                <label>Nationality</label>
+                <ErrorMessage name="nationality" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="nationality"
+                    placeholder=""
+                />
+
+                <label>LinkedIn Profile</label>
+                <ErrorMessage name="linkedin" component="span"></ErrorMessage>
+                <Field 
+                    autocomplete="off"
+                    id="inputCreateCandidate"
+                    name="linkedin"
+                    placeholder=""
+                />
+
+
                 <button type="submit">Save</button>
             </Form>
 
