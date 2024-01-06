@@ -13,6 +13,7 @@ function Candidate() {
   },[]);
 
   return (
+    
     <div className="candidatePage">
       <div className="candidate" id="individual">
         <div className="firstname">{candidateObject.firstname}</div>
@@ -30,8 +31,8 @@ function Candidate() {
         <div className="stratAssets">{candidateObject.stratAssets}</div>
         <div className="stratRegion">{candidateObject.stratRegion}</div>
         <div className="stratFreq">{candidateObject.stratFreq}</div>
-
         <div className="skills">{candidateObject.skills}</div>
+        
         <div className="needs">{candidateObject.needs}</div>
         <div className="target">{candidateObject.target}</div>
 
